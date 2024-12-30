@@ -17,7 +17,7 @@ chrome_options.add_argument("--disable-dev-shm-usage")  # Paylaşılan belleği 
 driver = webdriver.Chrome(options=chrome_options)
 
 # IMDB URL'sini aç
-url = "https://www.imdb.com/title/tt1099212/reviews/"
+url = "https://www.imdb.com/title/tt1099212/reviews/" # buraya istediğiniz filmin imdb linkini koyabilirsiniz.
 driver.get(url)
 
 # Yorumlar yüklenene kadar bekle
